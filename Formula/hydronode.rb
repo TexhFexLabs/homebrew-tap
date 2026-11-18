@@ -1,25 +1,25 @@
 class Hydronode < Formula
   desc "The HydroNode command line: sensors, values, devices and live data from your terminal"
   homepage "https://hydronode.tech"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.0/hydronode-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "94809c45b3ef36b745753513f122d390851de9adf6022fd2c1dc1c17d3a19d87"
+      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.1/hydronode-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "e0a2decca22a0b0b593911f1f948b9424c7dc8598a6caa880a092bd9bb2f8288"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.0/hydronode-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "c257d19f0405252e52d69b46ed91e054cff4950a12cf3d4a91f1bd5ea6fcaea1"
+      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.1/hydronode-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "bf5b572412c558982c0f9d84da6fe63f1af92e9908419b8f19ddbc99e9ef9aa9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.0/hydronode-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "5f638308e9f3ec49b50ebb23206727f46de0c44b27a7ea8b63256124e6122f9e"
+      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.1/hydronode-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "efddcbb97e7f51000b743ca13424bb48188ac02dd50f8e419b9df952ba54d844"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.0/hydronode-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "82f2a85d14e64c4f522d5fc0d49ad3dbaeb53f6e511655b7660f61df1d6d2d5f"
+      url "https://github.com/TexhFexLabs/hydronode-cli/releases/download/v0.1.1/hydronode-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "01d1b00e399702977d0b85d1e6abb29c4c75ff63bf3601952fba9109135c661b"
     end
   end
   license "MIT"
